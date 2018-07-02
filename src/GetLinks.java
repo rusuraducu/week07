@@ -30,8 +30,8 @@ public class GetLinks {
     }
 
     // Each url will be accessed and the program will get all the links from each url and
-    // will add them in a Temporary HashSet and after that, before the end of the method they will be moved in the
-    // Global Set With Links. At each recall of the method it is going to get as parameter
+    // will add them in a Temporary HashSet. After that, before the end of the method, they will be moved in the
+    // Global Set With Links. At each recall, the method it is going to get as parameter
     // the Set "globalSetWithLinks".
 
     private boolean getLinksUpToTheThirdGeneration(Set<String> urlList, int recursion) {
