@@ -25,7 +25,7 @@ public class GetLinks {
             System.out.println("The url is not valid.");
         } else {
             int noLinks = GetLinks.writeAllTheLinksInTheTextFile(urlList);
-            System.out.println(noLinks + " links have been written in the text file.");
+            System.out.println(noLinks + " links have been written to the text file.");
         }
     }
 
